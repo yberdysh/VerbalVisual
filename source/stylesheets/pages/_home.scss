@@ -1,17 +1,59 @@
-#home {
-  background-color: #909B9E;
+// #home {
+//   background-color: #909B9E;
+//   color: white;
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   text-align: center;
+//   p {
+//     margin-top: 1.5em;
+//   }
+//   a {
+//     color: rgba(0,0,0,0.4);
+//     font-weight: bold;
+//     font-size: 16px;
+//   }
+// }
+
+.angles {
+  padding: 100px;
+  padding-bottom: 50px;
+}
+.image {
+  min-height: 150px;
+  height: 400px;
+  min-width: 250px;
+  width: auto;
+  border-radius: 4px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
   color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
+  margin: 0;
+  opacity: 0.75;
+  z-index: 10;
+    @media (max-width: 600px) {
+    max-height: 200px;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
+}
+
+.product-description {
+  //margin-left: 40px;
+  font-size: 90%;
+  padding: 50px;
+  width: auto;
+  min-width: 300px;
+  @media (max-width: 700px) {
+    font-size: 90%;
   }
+}
+
+.product-description h2 {
+  font-family: "Permanent Marker";
+  font-size: 20px;
+}
+
+.product-description p {
+  font-family: "Roboto";
 }
