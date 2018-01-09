@@ -1,0 +1,25 @@
+.specs-colors h1 {
+  font-family: "Permanent Marker";
+  text-align: center;
+}
+
+.filled-circle {
+  padding: 50px;
+  border-radius: 2px;
+  background-color: #f38e23;
+  margin: 10px;
+  min-height: 200px;
+  min-width: 200px;
+  opacity: 0.75;
+}
+
+.filled-circle:hover {
+  opacity: 0.9;
+  box-shadow: 5px 5px 4px #888888;
+}
+
+.colors {
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}

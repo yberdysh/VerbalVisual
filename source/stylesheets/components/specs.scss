@@ -9,17 +9,27 @@
   margin-left: 10vw;
 }
 
-.spec {
-  width: 300px;
-  height: 300px;
-}
+// .spec {
+//   width: 300px;
+//   height: 300px;
+// }
 .spec-content img {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 }
 
 .spec-content {
-  border: solid;
+  //border: solid;
   width: 80vw;
   //margin-left: 10vw;
+}
+
+.spec h1 {
+  font-family: "Permanent Marker";
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.spec p {
+  font-family: "Roboto";
 }

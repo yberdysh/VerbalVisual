@@ -3,7 +3,17 @@
   width: 80vw;
 }
 
+.w3-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
+.w3-button {
+  padding: 10px;
+  position-left: 20px;
+}
 // #sliderbox img {
 //   height: 400px;
 //   width: 800px;
