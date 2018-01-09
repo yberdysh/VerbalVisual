@@ -16,6 +16,13 @@
 //   }
 // }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .angles {
   padding: 100px;
   padding-bottom: 50px;

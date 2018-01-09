@@ -24,7 +24,44 @@ title: Introducing C7
       </div>
     </div>
   </div>
+
+
+<!-- <div class="container">
+<div id="outerbox">
+  <div id="sliderbox">
+    <img src="images/02.jpg"/>
+    <img src="images/12.jpg"/>
+    <img src="images/04.jpg"/>
+    <img src="images/05.jpg"/>
+  </div>
 </div>
+</div> -->
+
+<div class="images">
+  <img class="mySlides" src="images/02.jpg">
+  <img class="mySlides" src="images/12.jpg">
+  <img class="mySlides" src="images/04.jpg">
+  <img class="mySlides" src="images/05.jpg">
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
 
 <div class="footer">
   <div class="footer-content">
