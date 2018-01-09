@@ -11,6 +11,15 @@
   min-height: 200px;
   min-width: 200px;
   opacity: 0.75;
+  @media (max-width: 1250px) {
+    padding: 30px;
+  }
+  @media (max-width: 900px) {
+    padding: 20px;
+  }
+  @media (max-width: 620px) {
+    padding: 9px;
+  }
 }
 
 .filled-circle:hover {
@@ -22,4 +31,10 @@
   padding: 10px;
   text-align: center;
   margin-top: 50px;
+}
+
+.buy-now {
+  margin-top: 100px;
+  text-align:center;
+  margin-right: 200px;
 }
