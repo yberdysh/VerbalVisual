@@ -1,0 +1,1 @@
+function carousel(){var e,l=document.getElementsByClassName("mySlides");for(e=0;e<l.length;e++)l[e].style.display="none";slideIndex++,slideIndex>l.length&&(slideIndex=1),l[slideIndex-1].style.display="block",setTimeout(carousel,2e3)}var slideIndex=0;carousel();

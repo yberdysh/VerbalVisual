@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Teko" rel="stylesheet">
 
     <title>Introducing C7</title>
-    <link href="stylesheets/application-1cf78984.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
+    <link href="stylesheets/application-b6a39439.css" rel="stylesheet" />
+    <script src="javascripts/application-6e482b44.js"></script>
     <link href="images/favicon-690d2810.png" rel="icon" type="image/png" />
   </head>
   <body>
@@ -37,7 +37,44 @@
       </div>
     </div>
   </div>
+
+
+<!-- <div class="container">
+<div id="outerbox">
+  <div id="sliderbox">
+    <img src="images/02-7b94c49c.jpg"/>
+    <img src="images/12-6973ab8a.jpg"/>
+    <img src="images/04-a4b775f2.jpg"/>
+    <img src="images/05-0a38607b.jpg"/>
+  </div>
 </div>
+</div> -->
+
+<div class="images">
+  <img class="mySlides" src="images/02-7b94c49c.jpg">
+  <img class="mySlides" src="images/12-6973ab8a.jpg">
+  <img class="mySlides" src="images/04-a4b775f2.jpg">
+  <img class="mySlides" src="images/05-0a38607b.jpg">
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
 
 <div class="footer">
   <div class="footer-content">
